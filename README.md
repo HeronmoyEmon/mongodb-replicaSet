@@ -3,6 +3,10 @@
 ## 1. Modify MongoDB Configuration File
 Edit the MongoDB configuration file (usually located at /etc/mongod.conf on Linux).
 
+```bash
+sudo nano /etc/mongod.conf
+```
+
 ```yaml
 replication:
   replSetName: "rs0"
